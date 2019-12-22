@@ -4,8 +4,8 @@ My personalized config files for unix systems
 
 ## Requirements
 
-  - stow
-  - vim >= 8
+  - GNU Stow
+  - Vim >= 8
 
 ## How to install?
 

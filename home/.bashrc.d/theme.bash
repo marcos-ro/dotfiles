@@ -35,7 +35,6 @@ __simple_theme() {
 function theme() {
     case $1 in
         'simple')
-            __simple_theme
             PROMPT_COMMAND=__simple_theme
          ;;
 
