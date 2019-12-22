@@ -1,0 +1,13 @@
+root = true
+
+[{*.c,*.cpp,*.hpp,*.h,*.java,*.rs,*.go}]
+indent_style = tab
+indent_size = 4
+
+[{*.py,*.js,*.php,*.css,*.bash}]
+indent_style = space
+indent_size = 4
+
+[{*.hs,*.ex,*.exs,*.r,*.sql,*.html}]
+indent_style = space
+indent_size = 2

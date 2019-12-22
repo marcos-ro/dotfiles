@@ -1,0 +1,21 @@
+[submodule "home/.vim/pack/theme/start/nord"]
+	path = home/.vim/pack/theme/start/nord
+	url = https://github.com/arcticicestudio/nord-vim
+[submodule "home/.vim/pack/util/start/tabnine"]
+	path = home/.vim/pack/util/start/tabnine
+	url = https://github.com/zxqfl/tabnine-vim
+[submodule "home/.tmux/plugins/tpm"]
+	path = home/.tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm
+[submodule "home/.vim/pack/theme/start/airline"]
+	path = home/.vim/pack/theme/start/airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "home/.vim/pack/util/start/auto-pairs"]
+	path = home/.vim/pack/util/start/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs
+[submodule "home/.vim/pack/util/start/editorconfig"]
+	path = home/.vim/pack/util/start/editorconfig
+	url = https://github.com/editorconfig/editorconfig-vim
+[submodule "home/.vim"]
+	path = home/.vim
+	url = https://github.com/marcos-ro/vimrc
