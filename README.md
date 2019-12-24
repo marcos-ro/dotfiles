@@ -9,11 +9,9 @@ My personalized config files for unix systems
 
 ## How to install?
 
-    $ git clone -r https://github.com/marcos-ro/dotfiles ~/.dotfiles
-    $ cd .dotfiles
-    $ git submodule update --init --recursive
-    $ stow home
-
+    $ git clone -r https://github.com/marcos-ro/dotfiles ~/.dotfiles && cd .dotfiles
+    $ git submodule update --init --recursive && stow home
+    
 ## Preview
 ### Terminal
 
