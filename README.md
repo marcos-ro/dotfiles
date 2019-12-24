@@ -5,7 +5,7 @@ My personalized config files for unix systems
 ## Requirements
 
   - GNU Stow
-  - Vim >= 8
+  - Vim
 
 ## How to install?
 
