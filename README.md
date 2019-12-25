@@ -1,17 +1,18 @@
 # Dotfiles
 
-My personalized config files for unix systems
+💻 My personalized config files for unix systems
 
 ## Requirements
 
-  - GNU Stow
-  - Vim
+- ![GNU stow](https://www.gnu.org/software/stow/)
+- ![Vim](https://www.vim.org)
 
 ## How to install?
 
-    $ git clone -r https://github.com/marcos-ro/dotfiles ~/.dotfiles && cd .dotfiles
-    $ git submodule update --init --recursive && stow home
-    
+```bash
+./install.sh
+```
+
 ## Preview
 ### Terminal
 
