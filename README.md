@@ -4,8 +4,8 @@
 
 ## Requirements
 
-- ![GNU stow](https://www.gnu.org/software/stow/)
-- ![Vim](https://www.vim.org)
+- [GNU stow](https://www.gnu.org/software/stow/)
+- [Vim](https://www.vim.org)
 
 ## How to install?
 
