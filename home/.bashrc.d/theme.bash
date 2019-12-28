@@ -22,13 +22,13 @@ __simple_theme() {
     local USER="${BOLD}${BLUE}\u${STOP}${NORMAL}"
     local HOST="${BOLD}${BLUE}\h${STOP}${NORMAL}"
     local DIR="${BOLD}${BLUE}\w${STOP}${NORMAL}"
-    local TIME="[${BOLD}${BLUE}\t${STOP}${NORMAL}]"
+    local NEW_LINE="\n\$ "
 
     if [ $EXIT_STATUS == 0 ]; then
-        PS1="${TIME} ${USER}@${HOST}:${DIR}> "
+        PS1="${USER} at ${HOST} in ${DIR} ${NEW_LINE}"
     else
         ERROR="[${BOLD}${RED}!${STOP}${NORMAL}]"
-        PS1="${TIME} ${USER}@${HOST}:${DIR}${ERROR}> "
+        PS1="${USER} at ${HOST} in ${DIR} 2> ${ERROR} ${NEW_LINE}"
     fi
 }
 
