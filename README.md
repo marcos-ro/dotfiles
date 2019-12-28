@@ -10,8 +10,8 @@
 
 ```bash
 $ git clone https://github.com/marcos-ro/dotfiles .dotfiles
-cd .dotfiles
-stow home
+$ cd .dotfiles
+$ stow home
 ```
 
 ## Preview
