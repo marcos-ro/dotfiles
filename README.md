@@ -1,4 +1,4 @@
-# Dotfiles
+# dotfiles
 
 💻 My personalized config files for unix systems
 
