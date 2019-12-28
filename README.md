@@ -18,3 +18,7 @@ $ stow home
 ### Terminal
 
 ![terminal](screenshots/terminal.png)
+
+### Tmux
+
+![tmux](screenshots/tmux.png)
