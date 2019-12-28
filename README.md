@@ -9,7 +9,7 @@
 ## How to install?
 
 ```bash
-$ git clone https://github.com/marcos-ro/dotfiles .dotfiles
+$ git clone -r https://github.com/marcos-ro/dotfiles .dotfiles
 $ cd .dotfiles
 $ stow home
 ```
