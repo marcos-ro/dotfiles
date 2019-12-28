@@ -6,6 +6,10 @@
 # Distributed under terms of MIT license
 #
 
+__git_branch() {
+    git branch 2>/dev/null | grep '^*' | colrm 1 2
+}
+
 __simple_theme() {
     local EXIT_STATUS=$?
 
@@ -23,13 +27,19 @@ __simple_theme() {
     local HOST="${BOLD}${BLUE}\h${STOP}${NORMAL}"
     local DIR="${BOLD}${BLUE}\w${STOP}${NORMAL}"
     local NEW_LINE="\n\$ "
+    local GIT_STATUS="${BOLD}${BLUE}$(__git_branch)${STOP}${NORMAL}"
 
-    if [ $EXIT_STATUS == 0 ]; then
-        PS1="${USER} at ${HOST} in ${DIR} ${NEW_LINE}"
-    else
-        ERROR="[${BOLD}${RED}!${STOP}${NORMAL}]"
-        PS1="${USER} at ${HOST} in ${DIR} 2> ${ERROR} ${NEW_LINE}"
+    PS1="${USER} at ${HOST} in ${DIR}"
+    if [ $EXIT_STATUS != 0 ]; then
+        local ERROR="${BOLD}${RED}!${STOP}${NORMAL}"
+        PS1="${PS1} 2> ${ERROR}"
     fi
+
+    if [ -d .git ]; then
+        PS1="${PS1} on ${GIT_STATUS}"
+    fi
+
+    PS1="${PS1} ${NEW_LINE}"
 }
 
 function theme() {
