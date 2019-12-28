@@ -16,6 +16,3 @@
 [submodule "home/.vim/pack/util/start/editorconfig"]
 	path = home/.vim/pack/util/start/editorconfig
 	url = https://github.com/editorconfig/editorconfig-vim
-[submodule "home/.vim"]
-	path = home/.vim
-	url = https://github.com/marcos-ro/vimrc

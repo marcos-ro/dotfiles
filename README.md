@@ -5,19 +5,16 @@
 ## Requirements
 
 - [GNU stow](https://www.gnu.org/software/stow/)
-- [Vim](https://www.vim.org)
 
 ## How to install?
 
 ```bash
-./install.sh
+$ git clone https://github.com/marcos-ro/dotfiles .dotfiles
+cd .dotfiles
+stow home
 ```
 
 ## Preview
 ### Terminal
 
 ![terminal](screenshots/terminal.png)
-
-### Vim
-
-![vim](https://github.com/marcos-ro/vimrc/blob/master/screenshots/vim.png)
