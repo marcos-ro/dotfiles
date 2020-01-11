@@ -16,3 +16,6 @@
 [submodule "home/.vim/pack/util/start/editorconfig"]
 	path = home/.vim/pack/util/start/editorconfig
 	url = https://github.com/editorconfig/editorconfig-vim
+[submodule "macosx/terminal/solarized"]
+	path = macosx/terminal/solarized
+	url = https://github.com/tomislav/osx-terminal.app-colors-solarized
