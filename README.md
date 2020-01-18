@@ -15,10 +15,4 @@ $ stow home
 ```
 
 ## Preview
-### Terminal
-
 ![terminal](screenshots/terminal.png)
-
-### Tmux
-
-![tmux](screenshots/tmux.png)
