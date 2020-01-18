@@ -8,6 +8,6 @@ indent_size = 4
 indent_style = space
 indent_size = 4
 
-[{*.hs,*.ex,*.exs,*.r,*.sql,*.html}]
+[{*.hs,*.ex,*.exs,*.r,*.sql,*.html,*.pl}]
 indent_style = space
 indent_size = 2
