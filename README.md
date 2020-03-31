@@ -15,4 +15,4 @@ $ stow home
 ```
 
 ## Preview
-![dark terminal](screenshots/dark_terminal.png)
+![dark terminal](screenshots/terminal.png)
