@@ -8,6 +8,7 @@
 
 # Local binaries
 export PATH=$PATH:~/.usr/local/bin
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/openjdk11/Contents/Home
 
 # Load external scripts
 source ~/.bashrc.d/theme.bash

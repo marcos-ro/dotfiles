@@ -4,7 +4,11 @@ root = true
 indent_style = space
 indent_size = 2
 
-[{*.c,*.cpp,*.hpp,*.h,*.java,*.rs,*.go}]
+[Makefile]
+indent_style = tab
+indent_size = 8
+
+[{*.c,*.cpp,*.hpp,*.h,*.java,*.rs,*.go,*.sql}]
 indent_style = tab
 indent_size = 4
 
@@ -12,6 +16,6 @@ indent_size = 4
 indent_style = space
 indent_size = 4
 
-[{*.hs,*.ex,*.exs,*.r,*.sql,*.html,*.pl}]
+[{*.hs,*.ex,*.exs,*.r,*.html,*.pl}]
 indent_style = space
 indent_size = 2
