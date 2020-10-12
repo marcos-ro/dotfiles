@@ -4,13 +4,10 @@ root = true
 indent_style = space
 indent_size = 2
 
-<<<<<<< HEAD
 [Makefile]
 indent_style = tab
 indent_size = 8
 
-=======
->>>>>>> ec16d1d6a41293d03426b7c52ef9561c10376396
 [{*.c,*.cpp,*.hpp,*.h,*.java,*.rs,*.go,*.sql}]
 indent_style = tab
 indent_size = 4
