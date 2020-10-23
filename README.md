@@ -1,6 +1,6 @@
 # dotfiles
 
-💻   My personalized config files for unix systems
+My personalized config files for unix systems
 
 ## Requirements
 
