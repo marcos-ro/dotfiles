@@ -1,21 +1,21 @@
 root = true
 
 [*]
-indent_style = space
-indent_size = 2
+indent_style = tab
+indent_size = 8
 
 [Makefile]
 indent_style = tab
 indent_size = 8
 
-[{*.c,*.cpp,*.hpp,*.h,*.java,*.rs,*.go,*.sql}]
+[{*.c,*.cpp,*.hpp,*.h,*.java,*.rs,*.go,*.conf}]
 indent_style = tab
 indent_size = 4
 
-[{*.py,*.js,*.php,*.css,*.bash}]
+[{*.py,*.js,*.php,*.css,*.bash,*.sql.j2}]
 indent_style = space
 indent_size = 4
 
-[{*.hs,*.ex,*.exs,*.r,*.html,*.pl}]
+[{*.hs,*.ex,*.exs,*.r,*.html,*.pl,*.scala,*.xml,*.sbt,*.yml,*.sql,*.dart}]
 indent_style = space
 indent_size = 2
