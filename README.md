@@ -14,6 +14,3 @@ My minimum configuration to work from the terminal in a comfortable way, I don't
 ```bash
 git clone --recursive https://github.com/marcos-ro/dotfiles ~/.dotfiles && cd ~/.dotfiles && stow home
 ```
-
-## Preview
-![dark terminal](screenshots/new_dotfiles_version.png)

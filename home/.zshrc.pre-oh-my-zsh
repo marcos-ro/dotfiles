@@ -1,5 +1,0 @@
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/marcos/.sdkman"
-[[ -s "/Users/marcos/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/marcos/.sdkman/bin/sdkman-init.sh"
-alias oracle=". /home/$USER/docker-services/oracle/install.sh"
