@@ -1,4 +1,5 @@
 # dotfiles
+## About The Project
 
 My minimum configuration to work from the terminal in a comfortable way, I don't know how likely your terminal is as well since I only thought it for myself
 
