@@ -8,14 +8,14 @@ indent_size = 8
 indent_style = tab
 indent_size = 8
 
-[{*.c,*.cpp,*.hpp,*.h,*.java,*.rs,*.go,*.conf}]
+[{*.c,*.cpp,*.hpp,*.h,*.java,*.rs,*.go,*.conf,*.sql,*.sql.j2}]
 indent_style = tab
 indent_size = 4
 
-[{*.py,*.js,*.php,*.css,*.bash,*.sql.j2}]
+[{*.py,*.js,*.php,*.css,*.bash}]
 indent_style = space
 indent_size = 4
 
-[{*.hs,*.ex,*.exs,*.r,*.html,*.pl,*.scala,*.xml,*.sbt,*.yml,*.sql,*.dart}]
+[{*.hs,*.ex,*.exs,*.r,*.html,*.pl,*.scala,*.xml,*.sbt,*.yml,*.dart}]
 indent_style = space
 indent_size = 2
